@@ -1,0 +1,54 @@
+name: agromarket
+description: "Real-Time Agricultural Market Price Information App (ND2 Final Year Project)"
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # State Management
+  provider: ^6.1.2
+
+  # Networking (used later to replace local JSON with a real API)
+  http: ^1.2.2
+
+  # Offline / Local Database (mobile)
+  sqflite: ^2.3.3+1
+  path: ^1.9.0
+
+  # Offline / Local Database (Flutter Web support for sqflite)
+  sqflite_common_ffi_web: ^0.4.5
+
+  # Key-value local storage (used for settings, theme, onboarding flag)
+  shared_preferences: ^2.3.2
+
+  # Date & Number formatting (prices, dates)
+  intl: ^0.19.0
+
+  # Image picking (used in Contact Developer / future admin features)
+  image_picker: ^1.1.2
+
+  # Charts (price trend graphs)
+  fl_chart: ^0.69.0
+
+  # Opening links (email, phone, website, social)
+  url_launcher: ^6.3.1
+
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/data/
+    - assets/images/
+    - assets/icons/
