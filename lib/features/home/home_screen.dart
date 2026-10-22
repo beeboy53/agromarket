@@ -38,6 +38,8 @@ class HomeScreen extends StatelessWidget {
             _SearchBar(
               onTap: () => Navigator.of(context).pushNamed(AppRoutes.search),
             ),
+            const SizedBox(height: 12),
+            const _ComparePricesCard(),
             const SizedBox(height: 24),
             SectionTitle(
               title: AppStrings.categories,
@@ -138,6 +140,58 @@ class _SearchBar extends StatelessWidget {
             ),
           ],
         ),
+      ),
+    );
+  }
+}
+
+/// Quick action that opens the cross-state price comparison.
+class _ComparePricesCard extends StatelessWidget {
+  const _ComparePricesCard();
+
+  @override
+  Widget build(BuildContext context) {
+    return CustomCard(
+      color: AppColors.primary,
+      padding: const EdgeInsets.symmetric(horizontal: 14, vertical: 12),
+      onTap: () => Navigator.of(context).pushNamed(AppRoutes.comparePrices),
+      child: Row(
+        children: [
+          Container(
+            width: 38,
+            height: 38,
+            decoration: BoxDecoration(
+              color: Colors.white.withOpacity(0.18),
+              shape: BoxShape.circle,
+            ),
+            child: const Icon(Icons.compare_arrows, color: Colors.white, size: 20),
+          ),
+          const SizedBox(width: 12),
+          Expanded(
+            child: Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: [
+                const Text(
+                  AppStrings.compareAcrossStates,
+                  style: TextStyle(
+                    color: Colors.white,
+                    fontWeight: FontWeight.w600,
+                    fontSize: 13.5,
+                  ),
+                ),
+                const SizedBox(height: 2),
+                Text(
+                  AppStrings.compareHint,
+                  style: TextStyle(
+                    color: Colors.white.withOpacity(0.85),
+                    fontSize: 11.5,
+                  ),
+                ),
+              ],
+            ),
+          ),
+          const Icon(Icons.chevron_right, color: Colors.white),
+        ],
       ),
     );
   }

@@ -54,6 +54,27 @@ class AppStrings {
   static const String currentPrice = 'Current Price';
   static const String previousPrice = 'Previous Price';
 
+  // Price comparison across states
+  static const String comparePrices = 'Compare Prices';
+  static const String compareAcrossStates = 'Compare Across States';
+  static const String compareHint =
+      'Find the cheapest state for any commodity';
+  static const String bestPrice = 'Best Price';
+  static const String sellMode = 'Selling';
+  static const String buyMode = 'Buying';
+  static const String sellModeHint =
+      'Best price = highest price a farmer can get';
+  static const String buyModeHint = 'Best price = lowest price a buyer can pay';
+  static const String priceByState = 'Price by State';
+  static const String chartNote =
+      'Bar heights are zoomed in to make the price gap easier to see.';
+  static const String stateRanking = 'State Ranking';
+  static const String onlyOneState =
+      'Only one state has a recorded price for this commodity so far.';
+  static const String comparisonNote =
+      'Prices are indicative and collected from each state\'s major market. '
+      'Transport costs should be considered before travelling to buy.';
+
   // Favourites
   static const String favourites = 'Favourites';
   static const String noFavourites = 'You have no favourite commodities yet.';

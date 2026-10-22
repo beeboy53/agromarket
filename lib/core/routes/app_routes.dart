@@ -10,6 +10,7 @@ import '../../features/auth/register_screen.dart';
 import '../../features/commodity/screens/categories_screen.dart';
 import '../../features/commodity/screens/commodity_details_screen.dart';
 import '../../features/commodity/screens/commodity_list_screen.dart';
+import '../../features/commodity/screens/price_comparison_screen.dart';
 import '../../features/contact/contact_developer_screen.dart';
 import '../../features/home/main_navigation_screen.dart';
 import '../../features/onboarding/onboarding_screen.dart';
@@ -27,6 +28,7 @@ class AppRoutes {
   static const String categories = '/categories';
   static const String commodityList = '/commodity-list';
   static const String commodityDetails = '/commodity-details';
+  static const String comparePrices = '/compare-prices';
   static const String search = '/search';
   static const String favourites = '/favourites';
   static const String settings = '/settings';
@@ -79,6 +81,12 @@ class AppRoutes {
         final commodity = settings.arguments as Commodity;
         return MaterialPageRoute(
           builder: (_) => CommodityDetailsScreen(commodity: commodity),
+          settings: settings,
+        );
+      case comparePrices:
+        final commodity = settings.arguments as Commodity?;
+        return MaterialPageRoute(
+          builder: (_) => PriceComparisonScreen(initialCommodity: commodity),
           settings: settings,
         );
       case search:

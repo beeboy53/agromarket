@@ -1,6 +1,7 @@
 import 'package:flutter/foundation.dart';
 
 import '../models/commodity.dart';
+import '../models/price_comparison.dart';
 import '../services/commodity_service.dart';
 import '../services/database_service.dart';
 
@@ -22,8 +23,10 @@ class CommodityProvider extends ChangeNotifier {
   String? _stateFilter;
   String? _marketFilter;
 
-  CommodityProvider() {
-    loadCommodities();
+  /// [autoLoad] is only false in tests, where data is injected with
+  /// [debugSetCommodities] instead of being read from storage.
+  CommodityProvider({bool autoLoad = true}) {
+    if (autoLoad) loadCommodities();
   }
 
   bool get isLoading => _isLoading;
@@ -46,6 +49,31 @@ class CommodityProvider extends ChangeNotifier {
   /// All distinct market names present in the data, sorted A-Z.
   List<String> get allMarkets =>
       _all.map((c) => c.market).toSet().toList()..sort();
+
+  /// All distinct commodity names present in the data, sorted A-Z.
+  /// Used by the Compare Prices screen to list what can be compared.
+  List<String> get allCommodityNames =>
+      _all.map((c) => c.name).toSet().toList()..sort();
+
+  /// Prices for [commodityName] across every state that has a record
+  /// for it, best price first, together with the money available by
+  /// choosing that state. Defaults to the sell view (highest price
+  /// wins), since the app serves farmers selling produce.
+  PriceComparison comparePricesFor(
+    String commodityName, {
+    PricePerspective perspective = PricePerspective.sell,
+  }) =>
+      PriceComparison.from(_all, commodityName, perspective: perspective);
+
+  /// Test/preview hook: fills the provider directly, bypassing the
+  /// JSON asset and offline storage.
+  @visibleForTesting
+  void debugSetCommodities(List<Commodity> commodities) {
+    _all = commodities;
+    _isLoading = false;
+    _error = null;
+    notifyListeners();
+  }
 
   /// The commodity list after applying search text and all active
   /// filters (category, state, market). This is what every list
@@ -119,11 +147,14 @@ class CommodityProvider extends ChangeNotifier {
 
   /// Other market-price records that share the same commodity name
   /// as [commodity] — used to build the "Available Markets" section
-  /// on the Commodity Details screen.
+  /// on the Commodity Details screen. Highest price first, since a
+  /// farmer selling produce wants to see where produce fetches the
+  /// most money.
   List<Commodity> availableMarketsFor(Commodity commodity) {
     return _all
         .where((c) => c.name == commodity.name && c.id != commodity.id)
-        .toList();
+        .toList()
+      ..sort((a, b) => b.currentPrice.compareTo(a.currentPrice));
   }
 
   void setSearchQuery(String query) {

@@ -31,10 +31,65 @@ class CommodityDetailsScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final category = _categoryInfo();
-    final otherMarkets =
-        context.watch<CommodityProvider>().availableMarketsFor(commodity);
+    final commodityProvider = context.watch<CommodityProvider>();
+    // Highest price first: a farmer selling produce wants to know
+    // where this commodity fetches the most money.
+    final comparison = commodityProvider.comparePricesFor(commodity.name);
+    final otherMarkets = commodityProvider.availableMarketsFor(commodity);
+    final bestPrice = comparison.bestPrice;
     final favouriteProvider = context.watch<FavouriteProvider>();
     final isFavourite = favouriteProvider.isFavourite(commodity.id);
+
+    Widget marketRow(Commodity other) {
+      final isBestPrice = other.currentPrice == bestPrice;
+      return Padding(
+        padding: const EdgeInsets.only(bottom: 10),
+        child: CustomCard(
+          color: isBestPrice ? AppColors.primary.withOpacity(0.08) : null,
+          onTap: () => Navigator.of(context).pushReplacementNamed(
+            AppRoutes.commodityDetails,
+            arguments: other,
+          ),
+          child: Row(
+            children: [
+              Expanded(
+                child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
+                    Text(other.market,
+                        style: Theme.of(context).textTheme.titleMedium),
+                    Text(other.state,
+                        style: Theme.of(context).textTheme.bodyMedium),
+                  ],
+                ),
+              ),
+              Column(
+                crossAxisAlignment: CrossAxisAlignment.end,
+                children: [
+                  Text(
+                    AppFormatters.price(other.currentPrice),
+                    style: const TextStyle(fontWeight: FontWeight.bold),
+                  ),
+                  const SizedBox(height: 3),
+                  Text(
+                    isBestPrice
+                        ? 'Best price'
+                        : '${AppFormatters.price(bestPrice - other.currentPrice)} lower',
+                    style: TextStyle(
+                      fontSize: 10.5,
+                      fontWeight: FontWeight.w600,
+                      color: isBestPrice
+                          ? AppColors.primary
+                          : AppColors.textSecondaryLight,
+                    ),
+                  ),
+                ],
+              ),
+            ],
+          ),
+        ),
+      );
+    }
 
     return Scaffold(
       body: CustomScrollView(
@@ -72,7 +127,7 @@ class CommodityDetailsScreen extends StatelessWidget {
                   const SizedBox(height: 6),
                   Row(
                     children: [
-                      Icon(Icons.storefront_outlined,
+                      const Icon(Icons.storefront_outlined,
                           size: 15, color: AppColors.textSecondaryLight),
                       const SizedBox(width: 4),
                       Text(
@@ -83,6 +138,8 @@ class CommodityDetailsScreen extends StatelessWidget {
                   ),
                   const SizedBox(height: 20),
                   _PriceSummaryCard(commodity: commodity),
+                  const SizedBox(height: 12),
+                  _CompareAcrossStatesCard(commodity: commodity),
                   const SizedBox(height: 20),
                   Text(AppStrings.priceTrend, style: Theme.of(context).textTheme.titleMedium),
                   const SizedBox(height: 12),
@@ -109,41 +166,69 @@ class CommodityDetailsScreen extends StatelessWidget {
                       style: Theme.of(context).textTheme.bodyMedium,
                     )
                   else
-                    ...otherMarkets.map(
-                      (other) => Padding(
-                        padding: const EdgeInsets.only(bottom: 10),
-                        child: CustomCard(
-                          onTap: () => Navigator.of(context).pushReplacementNamed(
-                            AppRoutes.commodityDetails,
-                            arguments: other,
-                          ),
-                          child: Row(
-                            children: [
-                              Expanded(
-                                child: Column(
-                                  crossAxisAlignment: CrossAxisAlignment.start,
-                                  children: [
-                                    Text(other.market,
-                                        style: Theme.of(context).textTheme.titleMedium),
-                                    Text(other.state,
-                                        style: Theme.of(context).textTheme.bodyMedium),
-                                  ],
-                                ),
-                              ),
-                              Text(
-                                AppFormatters.price(other.currentPrice),
-                                style: const TextStyle(fontWeight: FontWeight.bold),
-                              ),
-                            ],
-                          ),
-                        ),
-                      ),
-                    ),
+                    ...otherMarkets.map(marketRow),
                   const SizedBox(height: 24),
                 ],
               ),
             ),
           ),
+        ],
+      ),
+    );
+  }
+}
+
+/// Entry point to the cross-state price comparison for this commodity.
+class _CompareAcrossStatesCard extends StatelessWidget {
+  final Commodity commodity;
+
+  const _CompareAcrossStatesCard({required this.commodity});
+
+  @override
+  Widget build(BuildContext context) {
+    return CustomCard(
+      color: AppColors.primary.withOpacity(0.10),
+      onTap: () => Navigator.of(context).pushNamed(
+        AppRoutes.comparePrices,
+        arguments: commodity,
+      ),
+      child: Row(
+        children: [
+          Container(
+            width: 38,
+            height: 38,
+            decoration: BoxDecoration(
+              color: AppColors.primary.withOpacity(0.15),
+              shape: BoxShape.circle,
+            ),
+            child: const Icon(Icons.compare_arrows,
+                color: AppColors.primary, size: 20),
+          ),
+          const SizedBox(width: 12),
+          Expanded(
+            child: Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: [
+                Text(
+                  AppStrings.compareAcrossStates,
+                  style: Theme.of(context)
+                      .textTheme
+                      .titleMedium
+                      ?.copyWith(fontSize: 13.5),
+                ),
+                const SizedBox(height: 2),
+                Text(
+                  'See this price in every state',
+                  style: Theme.of(context)
+                      .textTheme
+                      .bodyMedium
+                      ?.copyWith(fontSize: 11.5),
+                ),
+              ],
+            ),
+          ),
+          const Icon(Icons.chevron_right,
+              size: 20, color: AppColors.primary),
         ],
       ),
     );

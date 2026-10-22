@@ -1108,5 +1108,2225 @@
         "price": 493200.0
       }
     ]
+  },
+  {
+    "id": "31",
+    "name": "Beans - Oloyin (100kg bag)",
+    "category": "Legumes",
+    "market": "Mile 12 Market",
+    "state": "Lagos",
+    "currentPrice": 101100.0,
+    "previousPrice": 98000.0,
+    "dateUpdated": "2026-07-21",
+    "description": "Honey beans (Oloyin variety), sold in 100kg bags, a household food staple.",
+    "priceHistory": [
+      {
+        "date": "2026-06-16",
+        "price": 96800.0
+      },
+      {
+        "date": "2026-06-23",
+        "price": 95200.0
+      },
+      {
+        "date": "2026-06-30",
+        "price": 97300.0
+      },
+      {
+        "date": "2026-07-07",
+        "price": 101000.0
+      },
+      {
+        "date": "2026-07-14",
+        "price": 98000.0
+      },
+      {
+        "date": "2026-07-21",
+        "price": 101100.0
+      }
+    ]
+  },
+  {
+    "id": "32",
+    "name": "Beans - Oloyin (100kg bag)",
+    "category": "Legumes",
+    "market": "Utako Market",
+    "state": "FCT",
+    "currentPrice": 93900.0,
+    "previousPrice": 92500.0,
+    "dateUpdated": "2026-07-21",
+    "description": "Honey beans (Oloyin variety), sold in 100kg bags, a household food staple.",
+    "priceHistory": [
+      {
+        "date": "2026-06-16",
+        "price": 86500.0
+      },
+      {
+        "date": "2026-06-23",
+        "price": 89900.0
+      },
+      {
+        "date": "2026-06-30",
+        "price": 92400.0
+      },
+      {
+        "date": "2026-07-07",
+        "price": 89400.0
+      },
+      {
+        "date": "2026-07-14",
+        "price": 92500.0
+      },
+      {
+        "date": "2026-07-21",
+        "price": 93900.0
+      }
+    ]
+  },
+  {
+    "id": "33",
+    "name": "Beans - Oloyin (100kg bag)",
+    "category": "Legumes",
+    "market": "Ogbete Main Market",
+    "state": "Enugu",
+    "currentPrice": 94300.0,
+    "previousPrice": 92800.0,
+    "dateUpdated": "2026-07-20",
+    "description": "Honey beans (Oloyin variety), sold in 100kg bags, a household food staple.",
+    "priceHistory": [
+      {
+        "date": "2026-06-15",
+        "price": 86000.0
+      },
+      {
+        "date": "2026-06-22",
+        "price": 88200.0
+      },
+      {
+        "date": "2026-06-29",
+        "price": 90500.0
+      },
+      {
+        "date": "2026-07-06",
+        "price": 94000.0
+      },
+      {
+        "date": "2026-07-13",
+        "price": 92800.0
+      },
+      {
+        "date": "2026-07-20",
+        "price": 94300.0
+      }
+    ]
+  },
+  {
+    "id": "34",
+    "name": "Beans - Oloyin (100kg bag)",
+    "category": "Legumes",
+    "market": "Onitsha Main Market",
+    "state": "Anambra",
+    "currentPrice": 89700.0,
+    "previousPrice": 88200.0,
+    "dateUpdated": "2026-07-21",
+    "description": "Honey beans (Oloyin variety), sold in 100kg bags, a household food staple.",
+    "priceHistory": [
+      {
+        "date": "2026-06-16",
+        "price": 84800.0
+      },
+      {
+        "date": "2026-06-23",
+        "price": 86300.0
+      },
+      {
+        "date": "2026-06-30",
+        "price": 85300.0
+      },
+      {
+        "date": "2026-07-07",
+        "price": 87200.0
+      },
+      {
+        "date": "2026-07-14",
+        "price": 88200.0
+      },
+      {
+        "date": "2026-07-21",
+        "price": 89700.0
+      }
+    ]
+  },
+  {
+    "id": "35",
+    "name": "Broiler Chicken (per bird)",
+    "category": "Livestock",
+    "market": "Mile 12 Market",
+    "state": "Lagos",
+    "currentPrice": 10600.0,
+    "previousPrice": 10400.0,
+    "dateUpdated": "2026-07-21",
+    "description": "Live broiler chicken sold per bird, prices peak during festive periods.",
+    "priceHistory": [
+      {
+        "date": "2026-06-16",
+        "price": 10100.0
+      },
+      {
+        "date": "2026-06-23",
+        "price": 10200.0
+      },
+      {
+        "date": "2026-06-30",
+        "price": 10200.0
+      },
+      {
+        "date": "2026-07-07",
+        "price": 10200.0
+      },
+      {
+        "date": "2026-07-14",
+        "price": 10400.0
+      },
+      {
+        "date": "2026-07-21",
+        "price": 10600.0
+      }
+    ]
+  },
+  {
+    "id": "36",
+    "name": "Broiler Chicken (per bird)",
+    "category": "Livestock",
+    "market": "Utako Market",
+    "state": "FCT",
+    "currentPrice": 9900.0,
+    "previousPrice": 10200.0,
+    "dateUpdated": "2026-07-19",
+    "description": "Live broiler chicken sold per bird, prices peak during festive periods.",
+    "priceHistory": [
+      {
+        "date": "2026-06-14",
+        "price": 10800.0
+      },
+      {
+        "date": "2026-06-21",
+        "price": 10400.0
+      },
+      {
+        "date": "2026-06-28",
+        "price": 10600.0
+      },
+      {
+        "date": "2026-07-05",
+        "price": 10500.0
+      },
+      {
+        "date": "2026-07-12",
+        "price": 10200.0
+      },
+      {
+        "date": "2026-07-19",
+        "price": 9900.0
+      }
+    ]
+  },
+  {
+    "id": "37",
+    "name": "Broiler Chicken (per bird)",
+    "category": "Livestock",
+    "market": "Bodija Market",
+    "state": "Oyo",
+    "currentPrice": 9100.0,
+    "previousPrice": 9300.0,
+    "dateUpdated": "2026-07-20",
+    "description": "Live broiler chicken sold per bird, prices peak during festive periods.",
+    "priceHistory": [
+      {
+        "date": "2026-06-15",
+        "price": 10100.0
+      },
+      {
+        "date": "2026-06-22",
+        "price": 10300.0
+      },
+      {
+        "date": "2026-06-29",
+        "price": 10000.0
+      },
+      {
+        "date": "2026-07-06",
+        "price": 9700.0
+      },
+      {
+        "date": "2026-07-13",
+        "price": 9300.0
+      },
+      {
+        "date": "2026-07-20",
+        "price": 9100.0
+      }
+    ]
+  },
+  {
+    "id": "38",
+    "name": "Broiler Chicken (per bird)",
+    "category": "Livestock",
+    "market": "Onitsha Main Market",
+    "state": "Anambra",
+    "currentPrice": 9500.0,
+    "previousPrice": 9400.0,
+    "dateUpdated": "2026-07-19",
+    "description": "Live broiler chicken sold per bird, prices peak during festive periods.",
+    "priceHistory": [
+      {
+        "date": "2026-06-14",
+        "price": 10300.0
+      },
+      {
+        "date": "2026-06-21",
+        "price": 9900.0
+      },
+      {
+        "date": "2026-06-28",
+        "price": 9700.0
+      },
+      {
+        "date": "2026-07-05",
+        "price": 9600.0
+      },
+      {
+        "date": "2026-07-12",
+        "price": 9400.0
+      },
+      {
+        "date": "2026-07-19",
+        "price": 9500.0
+      }
+    ]
+  },
+  {
+    "id": "39",
+    "name": "Cassava (100kg bag)",
+    "category": "Tubers",
+    "market": "Mile 12 Market",
+    "state": "Lagos",
+    "currentPrice": 22000.0,
+    "previousPrice": 21900.0,
+    "dateUpdated": "2026-07-19",
+    "description": "Fresh harvested cassava tubers sold in 100kg bags, used for garri, fufu and starch.",
+    "priceHistory": [
+      {
+        "date": "2026-06-14",
+        "price": 21400.0
+      },
+      {
+        "date": "2026-06-21",
+        "price": 21400.0
+      },
+      {
+        "date": "2026-06-28",
+        "price": 21900.0
+      },
+      {
+        "date": "2026-07-05",
+        "price": 21600.0
+      },
+      {
+        "date": "2026-07-12",
+        "price": 21900.0
+      },
+      {
+        "date": "2026-07-19",
+        "price": 22000.0
+      }
+    ]
+  },
+  {
+    "id": "40",
+    "name": "Cassava (100kg bag)",
+    "category": "Tubers",
+    "market": "Bodija Market",
+    "state": "Oyo",
+    "currentPrice": 20000.0,
+    "previousPrice": 19900.0,
+    "dateUpdated": "2026-07-21",
+    "description": "Fresh harvested cassava tubers sold in 100kg bags, used for garri, fufu and starch.",
+    "priceHistory": [
+      {
+        "date": "2026-06-16",
+        "price": 19100.0
+      },
+      {
+        "date": "2026-06-23",
+        "price": 19000.0
+      },
+      {
+        "date": "2026-06-30",
+        "price": 19000.0
+      },
+      {
+        "date": "2026-07-07",
+        "price": 19100.0
+      },
+      {
+        "date": "2026-07-14",
+        "price": 19900.0
+      },
+      {
+        "date": "2026-07-21",
+        "price": 20000.0
+      }
+    ]
+  },
+  {
+    "id": "41",
+    "name": "Cassava (100kg bag)",
+    "category": "Tubers",
+    "market": "Ogbete Main Market",
+    "state": "Enugu",
+    "currentPrice": 20700.0,
+    "previousPrice": 20400.0,
+    "dateUpdated": "2026-07-19",
+    "description": "Fresh harvested cassava tubers sold in 100kg bags, used for garri, fufu and starch.",
+    "priceHistory": [
+      {
+        "date": "2026-06-14",
+        "price": 20400.0
+      },
+      {
+        "date": "2026-06-21",
+        "price": 21200.0
+      },
+      {
+        "date": "2026-06-28",
+        "price": 21500.0
+      },
+      {
+        "date": "2026-07-05",
+        "price": 21100.0
+      },
+      {
+        "date": "2026-07-12",
+        "price": 20400.0
+      },
+      {
+        "date": "2026-07-19",
+        "price": 20700.0
+      }
+    ]
+  },
+  {
+    "id": "42",
+    "name": "Cassava (100kg bag)",
+    "category": "Tubers",
+    "market": "Onitsha Main Market",
+    "state": "Anambra",
+    "currentPrice": 20100.0,
+    "previousPrice": 20400.0,
+    "dateUpdated": "2026-07-21",
+    "description": "Fresh harvested cassava tubers sold in 100kg bags, used for garri, fufu and starch.",
+    "priceHistory": [
+      {
+        "date": "2026-06-16",
+        "price": 19200.0
+      },
+      {
+        "date": "2026-06-23",
+        "price": 20000.0
+      },
+      {
+        "date": "2026-06-30",
+        "price": 20700.0
+      },
+      {
+        "date": "2026-07-07",
+        "price": 20800.0
+      },
+      {
+        "date": "2026-07-14",
+        "price": 20400.0
+      },
+      {
+        "date": "2026-07-21",
+        "price": 20100.0
+      }
+    ]
+  },
+  {
+    "id": "43",
+    "name": "Cow (matured)",
+    "category": "Livestock",
+    "market": "Utako Market",
+    "state": "FCT",
+    "currentPrice": 511700.0,
+    "previousPrice": 528100.0,
+    "dateUpdated": "2026-07-19",
+    "description": "Matured cow sold per animal, prices vary widely with breed, weight and region.",
+    "priceHistory": [
+      {
+        "date": "2026-06-14",
+        "price": 538900.0
+      },
+      {
+        "date": "2026-06-21",
+        "price": 521900.0
+      },
+      {
+        "date": "2026-06-28",
+        "price": 504900.0
+      },
+      {
+        "date": "2026-07-05",
+        "price": 522700.0
+      },
+      {
+        "date": "2026-07-12",
+        "price": 528100.0
+      },
+      {
+        "date": "2026-07-19",
+        "price": 511700.0
+      }
+    ]
+  },
+  {
+    "id": "44",
+    "name": "Cow (matured)",
+    "category": "Livestock",
+    "market": "Bodija Market",
+    "state": "Oyo",
+    "currentPrice": 475000.0,
+    "previousPrice": 490900.0,
+    "dateUpdated": "2026-07-20",
+    "description": "Matured cow sold per animal, prices vary widely with breed, weight and region.",
+    "priceHistory": [
+      {
+        "date": "2026-06-15",
+        "price": 472800.0
+      },
+      {
+        "date": "2026-06-22",
+        "price": 478800.0
+      },
+      {
+        "date": "2026-06-29",
+        "price": 489600.0
+      },
+      {
+        "date": "2026-07-06",
+        "price": 493500.0
+      },
+      {
+        "date": "2026-07-13",
+        "price": 490900.0
+      },
+      {
+        "date": "2026-07-20",
+        "price": 475000.0
+      }
+    ]
+  },
+  {
+    "id": "45",
+    "name": "Cow (matured)",
+    "category": "Livestock",
+    "market": "Ogbete Main Market",
+    "state": "Enugu",
+    "currentPrice": 503800.0,
+    "previousPrice": 487500.0,
+    "dateUpdated": "2026-07-19",
+    "description": "Matured cow sold per animal, prices vary widely with breed, weight and region.",
+    "priceHistory": [
+      {
+        "date": "2026-06-14",
+        "price": 435800.0
+      },
+      {
+        "date": "2026-06-21",
+        "price": 448700.0
+      },
+      {
+        "date": "2026-06-28",
+        "price": 464500.0
+      },
+      {
+        "date": "2026-07-05",
+        "price": 475300.0
+      },
+      {
+        "date": "2026-07-12",
+        "price": 487500.0
+      },
+      {
+        "date": "2026-07-19",
+        "price": 503800.0
+      }
+    ]
+  },
+  {
+    "id": "46",
+    "name": "Cow (matured)",
+    "category": "Livestock",
+    "market": "Onitsha Main Market",
+    "state": "Anambra",
+    "currentPrice": 496100.0,
+    "previousPrice": 477800.0,
+    "dateUpdated": "2026-07-20",
+    "description": "Matured cow sold per animal, prices vary widely with breed, weight and region.",
+    "priceHistory": [
+      {
+        "date": "2026-06-15",
+        "price": 492300.0
+      },
+      {
+        "date": "2026-06-22",
+        "price": 484500.0
+      },
+      {
+        "date": "2026-06-29",
+        "price": 503000.0
+      },
+      {
+        "date": "2026-07-06",
+        "price": 495100.0
+      },
+      {
+        "date": "2026-07-13",
+        "price": 477800.0
+      },
+      {
+        "date": "2026-07-20",
+        "price": 496100.0
+      }
+    ]
+  },
+  {
+    "id": "47",
+    "name": "Fresh Pepper (basket)",
+    "category": "Vegetables",
+    "market": "Utako Market",
+    "state": "FCT",
+    "currentPrice": 29800.0,
+    "previousPrice": 29700.0,
+    "dateUpdated": "2026-07-19",
+    "description": "Fresh chili/tatashe pepper mix sold per basket, prices sensitive to rainfall and transport cost.",
+    "priceHistory": [
+      {
+        "date": "2026-06-14",
+        "price": 29900.0
+      },
+      {
+        "date": "2026-06-21",
+        "price": 29500.0
+      },
+      {
+        "date": "2026-06-28",
+        "price": 29200.0
+      },
+      {
+        "date": "2026-07-05",
+        "price": 29100.0
+      },
+      {
+        "date": "2026-07-12",
+        "price": 29700.0
+      },
+      {
+        "date": "2026-07-19",
+        "price": 29800.0
+      }
+    ]
+  },
+  {
+    "id": "48",
+    "name": "Fresh Pepper (basket)",
+    "category": "Vegetables",
+    "market": "Bodija Market",
+    "state": "Oyo",
+    "currentPrice": 27600.0,
+    "previousPrice": 26800.0,
+    "dateUpdated": "2026-07-21",
+    "description": "Fresh chili/tatashe pepper mix sold per basket, prices sensitive to rainfall and transport cost.",
+    "priceHistory": [
+      {
+        "date": "2026-06-16",
+        "price": 24300.0
+      },
+      {
+        "date": "2026-06-23",
+        "price": 25100.0
+      },
+      {
+        "date": "2026-06-30",
+        "price": 25900.0
+      },
+      {
+        "date": "2026-07-07",
+        "price": 26300.0
+      },
+      {
+        "date": "2026-07-14",
+        "price": 26800.0
+      },
+      {
+        "date": "2026-07-21",
+        "price": 27600.0
+      }
+    ]
+  },
+  {
+    "id": "49",
+    "name": "Fresh Pepper (basket)",
+    "category": "Vegetables",
+    "market": "Ogbete Main Market",
+    "state": "Enugu",
+    "currentPrice": 29300.0,
+    "previousPrice": 30300.0,
+    "dateUpdated": "2026-07-21",
+    "description": "Fresh chili/tatashe pepper mix sold per basket, prices sensitive to rainfall and transport cost.",
+    "priceHistory": [
+      {
+        "date": "2026-06-16",
+        "price": 31400.0
+      },
+      {
+        "date": "2026-06-23",
+        "price": 30700.0
+      },
+      {
+        "date": "2026-06-30",
+        "price": 30200.0
+      },
+      {
+        "date": "2026-07-07",
+        "price": 30600.0
+      },
+      {
+        "date": "2026-07-14",
+        "price": 30300.0
+      },
+      {
+        "date": "2026-07-21",
+        "price": 29300.0
+      }
+    ]
+  },
+  {
+    "id": "50",
+    "name": "Fresh Pepper (basket)",
+    "category": "Vegetables",
+    "market": "Onitsha Main Market",
+    "state": "Anambra",
+    "currentPrice": 28200.0,
+    "previousPrice": 27500.0,
+    "dateUpdated": "2026-07-20",
+    "description": "Fresh chili/tatashe pepper mix sold per basket, prices sensitive to rainfall and transport cost.",
+    "priceHistory": [
+      {
+        "date": "2026-06-15",
+        "price": 29600.0
+      },
+      {
+        "date": "2026-06-22",
+        "price": 28600.0
+      },
+      {
+        "date": "2026-06-29",
+        "price": 29100.0
+      },
+      {
+        "date": "2026-07-06",
+        "price": 28000.0
+      },
+      {
+        "date": "2026-07-13",
+        "price": 27500.0
+      },
+      {
+        "date": "2026-07-20",
+        "price": 28200.0
+      }
+    ]
+  },
+  {
+    "id": "51",
+    "name": "Goat (matured)",
+    "category": "Livestock",
+    "market": "Mile 12 Market",
+    "state": "Lagos",
+    "currentPrice": 68500.0,
+    "previousPrice": 66700.0,
+    "dateUpdated": "2026-07-21",
+    "description": "Matured goat sold per animal, prices vary with size, breed and season (e.g. Sallah).",
+    "priceHistory": [
+      {
+        "date": "2026-06-16",
+        "price": 66000.0
+      },
+      {
+        "date": "2026-06-23",
+        "price": 66800.0
+      },
+      {
+        "date": "2026-06-30",
+        "price": 68600.0
+      },
+      {
+        "date": "2026-07-07",
+        "price": 67200.0
+      },
+      {
+        "date": "2026-07-14",
+        "price": 66700.0
+      },
+      {
+        "date": "2026-07-21",
+        "price": 68500.0
+      }
+    ]
+  },
+  {
+    "id": "52",
+    "name": "Goat (matured)",
+    "category": "Livestock",
+    "market": "Dawanau Market",
+    "state": "Kano",
+    "currentPrice": 56500.0,
+    "previousPrice": 56200.0,
+    "dateUpdated": "2026-07-20",
+    "description": "Matured goat sold per animal, prices vary with size, breed and season (e.g. Sallah).",
+    "priceHistory": [
+      {
+        "date": "2026-06-15",
+        "price": 57700.0
+      },
+      {
+        "date": "2026-06-22",
+        "price": 56000.0
+      },
+      {
+        "date": "2026-06-29",
+        "price": 56200.0
+      },
+      {
+        "date": "2026-07-06",
+        "price": 56700.0
+      },
+      {
+        "date": "2026-07-13",
+        "price": 56200.0
+      },
+      {
+        "date": "2026-07-20",
+        "price": 56500.0
+      }
+    ]
+  },
+  {
+    "id": "53",
+    "name": "Goat (matured)",
+    "category": "Livestock",
+    "market": "Ogbete Main Market",
+    "state": "Enugu",
+    "currentPrice": 63300.0,
+    "previousPrice": 63600.0,
+    "dateUpdated": "2026-07-21",
+    "description": "Matured goat sold per animal, prices vary with size, breed and season (e.g. Sallah).",
+    "priceHistory": [
+      {
+        "date": "2026-06-16",
+        "price": 64300.0
+      },
+      {
+        "date": "2026-06-23",
+        "price": 63600.0
+      },
+      {
+        "date": "2026-06-30",
+        "price": 62400.0
+      },
+      {
+        "date": "2026-07-07",
+        "price": 62600.0
+      },
+      {
+        "date": "2026-07-14",
+        "price": 63600.0
+      },
+      {
+        "date": "2026-07-21",
+        "price": 63300.0
+      }
+    ]
+  },
+  {
+    "id": "54",
+    "name": "Goat (matured)",
+    "category": "Livestock",
+    "market": "Onitsha Main Market",
+    "state": "Anambra",
+    "currentPrice": 60700.0,
+    "previousPrice": 62700.0,
+    "dateUpdated": "2026-07-21",
+    "description": "Matured goat sold per animal, prices vary with size, breed and season (e.g. Sallah).",
+    "priceHistory": [
+      {
+        "date": "2026-06-16",
+        "price": 62400.0
+      },
+      {
+        "date": "2026-06-23",
+        "price": 60400.0
+      },
+      {
+        "date": "2026-06-30",
+        "price": 62900.0
+      },
+      {
+        "date": "2026-07-07",
+        "price": 63800.0
+      },
+      {
+        "date": "2026-07-14",
+        "price": 62700.0
+      },
+      {
+        "date": "2026-07-21",
+        "price": 60700.0
+      }
+    ]
+  },
+  {
+    "id": "55",
+    "name": "Groundnut (bag)",
+    "category": "Legumes",
+    "market": "Utako Market",
+    "state": "FCT",
+    "currentPrice": 60300.0,
+    "previousPrice": 61400.0,
+    "dateUpdated": "2026-07-21",
+    "description": "Shelled groundnut (peanut) sold by the bag, major cash crop in Northern Nigeria.",
+    "priceHistory": [
+      {
+        "date": "2026-06-16",
+        "price": 61400.0
+      },
+      {
+        "date": "2026-06-23",
+        "price": 63600.0
+      },
+      {
+        "date": "2026-06-30",
+        "price": 62600.0
+      },
+      {
+        "date": "2026-07-07",
+        "price": 61000.0
+      },
+      {
+        "date": "2026-07-14",
+        "price": 61400.0
+      },
+      {
+        "date": "2026-07-21",
+        "price": 60300.0
+      }
+    ]
+  },
+  {
+    "id": "56",
+    "name": "Groundnut (bag)",
+    "category": "Legumes",
+    "market": "Bodija Market",
+    "state": "Oyo",
+    "currentPrice": 56100.0,
+    "previousPrice": 53900.0,
+    "dateUpdated": "2026-07-21",
+    "description": "Shelled groundnut (peanut) sold by the bag, major cash crop in Northern Nigeria.",
+    "priceHistory": [
+      {
+        "date": "2026-06-16",
+        "price": 55100.0
+      },
+      {
+        "date": "2026-06-23",
+        "price": 55500.0
+      },
+      {
+        "date": "2026-06-30",
+        "price": 54200.0
+      },
+      {
+        "date": "2026-07-07",
+        "price": 55100.0
+      },
+      {
+        "date": "2026-07-14",
+        "price": 53900.0
+      },
+      {
+        "date": "2026-07-21",
+        "price": 56100.0
+      }
+    ]
+  },
+  {
+    "id": "57",
+    "name": "Groundnut (bag)",
+    "category": "Legumes",
+    "market": "Ogbete Main Market",
+    "state": "Enugu",
+    "currentPrice": 58400.0,
+    "previousPrice": 57600.0,
+    "dateUpdated": "2026-07-21",
+    "description": "Shelled groundnut (peanut) sold by the bag, major cash crop in Northern Nigeria.",
+    "priceHistory": [
+      {
+        "date": "2026-06-16",
+        "price": 57800.0
+      },
+      {
+        "date": "2026-06-23",
+        "price": 55900.0
+      },
+      {
+        "date": "2026-06-30",
+        "price": 56700.0
+      },
+      {
+        "date": "2026-07-07",
+        "price": 56800.0
+      },
+      {
+        "date": "2026-07-14",
+        "price": 57600.0
+      },
+      {
+        "date": "2026-07-21",
+        "price": 58400.0
+      }
+    ]
+  },
+  {
+    "id": "58",
+    "name": "Groundnut (bag)",
+    "category": "Legumes",
+    "market": "Onitsha Main Market",
+    "state": "Anambra",
+    "currentPrice": 58800.0,
+    "previousPrice": 58700.0,
+    "dateUpdated": "2026-07-20",
+    "description": "Shelled groundnut (peanut) sold by the bag, major cash crop in Northern Nigeria.",
+    "priceHistory": [
+      {
+        "date": "2026-06-15",
+        "price": 60000.0
+      },
+      {
+        "date": "2026-06-22",
+        "price": 59100.0
+      },
+      {
+        "date": "2026-06-29",
+        "price": 61400.0
+      },
+      {
+        "date": "2026-07-06",
+        "price": 60500.0
+      },
+      {
+        "date": "2026-07-13",
+        "price": 58700.0
+      },
+      {
+        "date": "2026-07-20",
+        "price": 58800.0
+      }
+    ]
+  },
+  {
+    "id": "59",
+    "name": "Maize (100kg bag)",
+    "category": "Grains",
+    "market": "Mile 12 Market",
+    "state": "Lagos",
+    "currentPrice": 53900.0,
+    "previousPrice": 52900.0,
+    "dateUpdated": "2026-07-21",
+    "description": "Dried yellow/white maize grains sold in 100kg bags, widely used for food and animal feed.",
+    "priceHistory": [
+      {
+        "date": "2026-06-16",
+        "price": 54600.0
+      },
+      {
+        "date": "2026-06-23",
+        "price": 52800.0
+      },
+      {
+        "date": "2026-06-30",
+        "price": 52100.0
+      },
+      {
+        "date": "2026-07-07",
+        "price": 53600.0
+      },
+      {
+        "date": "2026-07-14",
+        "price": 52900.0
+      },
+      {
+        "date": "2026-07-21",
+        "price": 53900.0
+      }
+    ]
+  },
+  {
+    "id": "60",
+    "name": "Maize (100kg bag)",
+    "category": "Grains",
+    "market": "Utako Market",
+    "state": "FCT",
+    "currentPrice": 51600.0,
+    "previousPrice": 52600.0,
+    "dateUpdated": "2026-07-21",
+    "description": "Dried yellow/white maize grains sold in 100kg bags, widely used for food and animal feed.",
+    "priceHistory": [
+      {
+        "date": "2026-06-16",
+        "price": 52300.0
+      },
+      {
+        "date": "2026-06-23",
+        "price": 53900.0
+      },
+      {
+        "date": "2026-06-30",
+        "price": 52100.0
+      },
+      {
+        "date": "2026-07-07",
+        "price": 52800.0
+      },
+      {
+        "date": "2026-07-14",
+        "price": 52600.0
+      },
+      {
+        "date": "2026-07-21",
+        "price": 51600.0
+      }
+    ]
+  },
+  {
+    "id": "61",
+    "name": "Maize (100kg bag)",
+    "category": "Grains",
+    "market": "Bodija Market",
+    "state": "Oyo",
+    "currentPrice": 46900.0,
+    "previousPrice": 46200.0,
+    "dateUpdated": "2026-07-21",
+    "description": "Dried yellow/white maize grains sold in 100kg bags, widely used for food and animal feed.",
+    "priceHistory": [
+      {
+        "date": "2026-06-16",
+        "price": 45100.0
+      },
+      {
+        "date": "2026-06-23",
+        "price": 46300.0
+      },
+      {
+        "date": "2026-06-30",
+        "price": 46700.0
+      },
+      {
+        "date": "2026-07-07",
+        "price": 46200.0
+      },
+      {
+        "date": "2026-07-14",
+        "price": 46200.0
+      },
+      {
+        "date": "2026-07-21",
+        "price": 46900.0
+      }
+    ]
+  },
+  {
+    "id": "62",
+    "name": "Maize (100kg bag)",
+    "category": "Grains",
+    "market": "Ogbete Main Market",
+    "state": "Enugu",
+    "currentPrice": 51100.0,
+    "previousPrice": 52200.0,
+    "dateUpdated": "2026-07-19",
+    "description": "Dried yellow/white maize grains sold in 100kg bags, widely used for food and animal feed.",
+    "priceHistory": [
+      {
+        "date": "2026-06-14",
+        "price": 53200.0
+      },
+      {
+        "date": "2026-06-21",
+        "price": 51400.0
+      },
+      {
+        "date": "2026-06-28",
+        "price": 49800.0
+      },
+      {
+        "date": "2026-07-05",
+        "price": 50400.0
+      },
+      {
+        "date": "2026-07-12",
+        "price": 52200.0
+      },
+      {
+        "date": "2026-07-19",
+        "price": 51100.0
+      }
+    ]
+  },
+  {
+    "id": "63",
+    "name": "Millet (100kg bag)",
+    "category": "Grains",
+    "market": "Mile 12 Market",
+    "state": "Lagos",
+    "currentPrice": 50400.0,
+    "previousPrice": 48400.0,
+    "dateUpdated": "2026-07-21",
+    "description": "Dried millet grains, sold in 100kg bags, popular in Northern Nigeria for pap and 'fura'.",
+    "priceHistory": [
+      {
+        "date": "2026-06-16",
+        "price": 47500.0
+      },
+      {
+        "date": "2026-06-23",
+        "price": 47200.0
+      },
+      {
+        "date": "2026-06-30",
+        "price": 48600.0
+      },
+      {
+        "date": "2026-07-07",
+        "price": 48300.0
+      },
+      {
+        "date": "2026-07-14",
+        "price": 48400.0
+      },
+      {
+        "date": "2026-07-21",
+        "price": 50400.0
+      }
+    ]
+  },
+  {
+    "id": "64",
+    "name": "Millet (100kg bag)",
+    "category": "Grains",
+    "market": "Dawanau Market",
+    "state": "Kano",
+    "currentPrice": 41700.0,
+    "previousPrice": 43300.0,
+    "dateUpdated": "2026-07-21",
+    "description": "Dried millet grains, sold in 100kg bags, popular in Northern Nigeria for pap and 'fura'.",
+    "priceHistory": [
+      {
+        "date": "2026-06-16",
+        "price": 39800.0
+      },
+      {
+        "date": "2026-06-23",
+        "price": 40300.0
+      },
+      {
+        "date": "2026-06-30",
+        "price": 41000.0
+      },
+      {
+        "date": "2026-07-07",
+        "price": 42100.0
+      },
+      {
+        "date": "2026-07-14",
+        "price": 43300.0
+      },
+      {
+        "date": "2026-07-21",
+        "price": 41700.0
+      }
+    ]
+  },
+  {
+    "id": "65",
+    "name": "Millet (100kg bag)",
+    "category": "Grains",
+    "market": "Utako Market",
+    "state": "FCT",
+    "currentPrice": 48000.0,
+    "previousPrice": 49600.0,
+    "dateUpdated": "2026-07-21",
+    "description": "Dried millet grains, sold in 100kg bags, popular in Northern Nigeria for pap and 'fura'.",
+    "priceHistory": [
+      {
+        "date": "2026-06-16",
+        "price": 49000.0
+      },
+      {
+        "date": "2026-06-23",
+        "price": 49400.0
+      },
+      {
+        "date": "2026-06-30",
+        "price": 48000.0
+      },
+      {
+        "date": "2026-07-07",
+        "price": 48400.0
+      },
+      {
+        "date": "2026-07-14",
+        "price": 49600.0
+      },
+      {
+        "date": "2026-07-21",
+        "price": 48000.0
+      }
+    ]
+  },
+  {
+    "id": "66",
+    "name": "Millet (100kg bag)",
+    "category": "Grains",
+    "market": "Onitsha Main Market",
+    "state": "Anambra",
+    "currentPrice": 45200.0,
+    "previousPrice": 45300.0,
+    "dateUpdated": "2026-07-21",
+    "description": "Dried millet grains, sold in 100kg bags, popular in Northern Nigeria for pap and 'fura'.",
+    "priceHistory": [
+      {
+        "date": "2026-06-16",
+        "price": 42500.0
+      },
+      {
+        "date": "2026-06-23",
+        "price": 43400.0
+      },
+      {
+        "date": "2026-06-30",
+        "price": 44000.0
+      },
+      {
+        "date": "2026-07-07",
+        "price": 43700.0
+      },
+      {
+        "date": "2026-07-14",
+        "price": 45300.0
+      },
+      {
+        "date": "2026-07-21",
+        "price": 45200.0
+      }
+    ]
+  },
+  {
+    "id": "67",
+    "name": "Onion (bag)",
+    "category": "Vegetables",
+    "market": "Dawanau Market",
+    "state": "Kano",
+    "currentPrice": 44200.0,
+    "previousPrice": 45200.0,
+    "dateUpdated": "2026-07-21",
+    "description": "Dried onion bulbs sold by the bag, mostly sourced from Northern Nigeria (Sokoto, Kebbi).",
+    "priceHistory": [
+      {
+        "date": "2026-06-16",
+        "price": 44200.0
+      },
+      {
+        "date": "2026-06-23",
+        "price": 44200.0
+      },
+      {
+        "date": "2026-06-30",
+        "price": 44500.0
+      },
+      {
+        "date": "2026-07-07",
+        "price": 44900.0
+      },
+      {
+        "date": "2026-07-14",
+        "price": 45200.0
+      },
+      {
+        "date": "2026-07-21",
+        "price": 44200.0
+      }
+    ]
+  },
+  {
+    "id": "68",
+    "name": "Onion (bag)",
+    "category": "Vegetables",
+    "market": "Utako Market",
+    "state": "FCT",
+    "currentPrice": 50700.0,
+    "previousPrice": 50500.0,
+    "dateUpdated": "2026-07-19",
+    "description": "Dried onion bulbs sold by the bag, mostly sourced from Northern Nigeria (Sokoto, Kebbi).",
+    "priceHistory": [
+      {
+        "date": "2026-06-14",
+        "price": 50900.0
+      },
+      {
+        "date": "2026-06-21",
+        "price": 49300.0
+      },
+      {
+        "date": "2026-06-28",
+        "price": 51200.0
+      },
+      {
+        "date": "2026-07-05",
+        "price": 50300.0
+      },
+      {
+        "date": "2026-07-12",
+        "price": 50500.0
+      },
+      {
+        "date": "2026-07-19",
+        "price": 50700.0
+      }
+    ]
+  },
+  {
+    "id": "69",
+    "name": "Onion (bag)",
+    "category": "Vegetables",
+    "market": "Bodija Market",
+    "state": "Oyo",
+    "currentPrice": 46200.0,
+    "previousPrice": 46000.0,
+    "dateUpdated": "2026-07-19",
+    "description": "Dried onion bulbs sold by the bag, mostly sourced from Northern Nigeria (Sokoto, Kebbi).",
+    "priceHistory": [
+      {
+        "date": "2026-06-14",
+        "price": 45900.0
+      },
+      {
+        "date": "2026-06-21",
+        "price": 47700.0
+      },
+      {
+        "date": "2026-06-28",
+        "price": 48900.0
+      },
+      {
+        "date": "2026-07-05",
+        "price": 47700.0
+      },
+      {
+        "date": "2026-07-12",
+        "price": 46000.0
+      },
+      {
+        "date": "2026-07-19",
+        "price": 46200.0
+      }
+    ]
+  },
+  {
+    "id": "70",
+    "name": "Onion (bag)",
+    "category": "Vegetables",
+    "market": "Onitsha Main Market",
+    "state": "Anambra",
+    "currentPrice": 48400.0,
+    "previousPrice": 48600.0,
+    "dateUpdated": "2026-07-20",
+    "description": "Dried onion bulbs sold by the bag, mostly sourced from Northern Nigeria (Sokoto, Kebbi).",
+    "priceHistory": [
+      {
+        "date": "2026-06-15",
+        "price": 54000.0
+      },
+      {
+        "date": "2026-06-22",
+        "price": 54000.0
+      },
+      {
+        "date": "2026-06-29",
+        "price": 52000.0
+      },
+      {
+        "date": "2026-07-06",
+        "price": 50400.0
+      },
+      {
+        "date": "2026-07-13",
+        "price": 48600.0
+      },
+      {
+        "date": "2026-07-20",
+        "price": 48400.0
+      }
+    ]
+  },
+  {
+    "id": "71",
+    "name": "Rice (50kg bag)",
+    "category": "Grains",
+    "market": "Dawanau Market",
+    "state": "Kano",
+    "currentPrice": 68300.0,
+    "previousPrice": 66400.0,
+    "dateUpdated": "2026-07-19",
+    "description": "Locally milled long grain white rice, sold in 50kg bags. Prices vary by brand and paddy source.",
+    "priceHistory": [
+      {
+        "date": "2026-06-14",
+        "price": 72600.0
+      },
+      {
+        "date": "2026-06-21",
+        "price": 69800.0
+      },
+      {
+        "date": "2026-06-28",
+        "price": 69900.0
+      },
+      {
+        "date": "2026-07-05",
+        "price": 69000.0
+      },
+      {
+        "date": "2026-07-12",
+        "price": 66400.0
+      },
+      {
+        "date": "2026-07-19",
+        "price": 68300.0
+      }
+    ]
+  },
+  {
+    "id": "72",
+    "name": "Rice (50kg bag)",
+    "category": "Grains",
+    "market": "Utako Market",
+    "state": "FCT",
+    "currentPrice": 80800.0,
+    "previousPrice": 78000.0,
+    "dateUpdated": "2026-07-19",
+    "description": "Locally milled long grain white rice, sold in 50kg bags. Prices vary by brand and paddy source.",
+    "priceHistory": [
+      {
+        "date": "2026-06-14",
+        "price": 69500.0
+      },
+      {
+        "date": "2026-06-21",
+        "price": 71800.0
+      },
+      {
+        "date": "2026-06-28",
+        "price": 74200.0
+      },
+      {
+        "date": "2026-07-05",
+        "price": 76200.0
+      },
+      {
+        "date": "2026-07-12",
+        "price": 78000.0
+      },
+      {
+        "date": "2026-07-19",
+        "price": 80800.0
+      }
+    ]
+  },
+  {
+    "id": "73",
+    "name": "Rice (50kg bag)",
+    "category": "Grains",
+    "market": "Ogbete Main Market",
+    "state": "Enugu",
+    "currentPrice": 77700.0,
+    "previousPrice": 78800.0,
+    "dateUpdated": "2026-07-19",
+    "description": "Locally milled long grain white rice, sold in 50kg bags. Prices vary by brand and paddy source.",
+    "priceHistory": [
+      {
+        "date": "2026-06-14",
+        "price": 77100.0
+      },
+      {
+        "date": "2026-06-21",
+        "price": 77500.0
+      },
+      {
+        "date": "2026-06-28",
+        "price": 80100.0
+      },
+      {
+        "date": "2026-07-05",
+        "price": 78600.0
+      },
+      {
+        "date": "2026-07-12",
+        "price": 78800.0
+      },
+      {
+        "date": "2026-07-19",
+        "price": 77700.0
+      }
+    ]
+  },
+  {
+    "id": "74",
+    "name": "Rice (50kg bag)",
+    "category": "Grains",
+    "market": "Onitsha Main Market",
+    "state": "Anambra",
+    "currentPrice": 75800.0,
+    "previousPrice": 76000.0,
+    "dateUpdated": "2026-07-19",
+    "description": "Locally milled long grain white rice, sold in 50kg bags. Prices vary by brand and paddy source.",
+    "priceHistory": [
+      {
+        "date": "2026-06-14",
+        "price": 79600.0
+      },
+      {
+        "date": "2026-06-21",
+        "price": 79300.0
+      },
+      {
+        "date": "2026-06-28",
+        "price": 80400.0
+      },
+      {
+        "date": "2026-07-05",
+        "price": 78300.0
+      },
+      {
+        "date": "2026-07-12",
+        "price": 76000.0
+      },
+      {
+        "date": "2026-07-19",
+        "price": 75800.0
+      }
+    ]
+  },
+  {
+    "id": "75",
+    "name": "Soybean (100kg bag)",
+    "category": "Legumes",
+    "market": "Utako Market",
+    "state": "FCT",
+    "currentPrice": 69400.0,
+    "previousPrice": 69100.0,
+    "dateUpdated": "2026-07-20",
+    "description": "Dried soybean seeds sold in 100kg bags, used for oil extraction and animal feed.",
+    "priceHistory": [
+      {
+        "date": "2026-06-15",
+        "price": 64300.0
+      },
+      {
+        "date": "2026-06-22",
+        "price": 63500.0
+      },
+      {
+        "date": "2026-06-29",
+        "price": 65600.0
+      },
+      {
+        "date": "2026-07-06",
+        "price": 68100.0
+      },
+      {
+        "date": "2026-07-13",
+        "price": 69100.0
+      },
+      {
+        "date": "2026-07-20",
+        "price": 69400.0
+      }
+    ]
+  },
+  {
+    "id": "76",
+    "name": "Soybean (100kg bag)",
+    "category": "Legumes",
+    "market": "Bodija Market",
+    "state": "Oyo",
+    "currentPrice": 64900.0,
+    "previousPrice": 65800.0,
+    "dateUpdated": "2026-07-21",
+    "description": "Dried soybean seeds sold in 100kg bags, used for oil extraction and animal feed.",
+    "priceHistory": [
+      {
+        "date": "2026-06-16",
+        "price": 65500.0
+      },
+      {
+        "date": "2026-06-23",
+        "price": 66400.0
+      },
+      {
+        "date": "2026-06-30",
+        "price": 64900.0
+      },
+      {
+        "date": "2026-07-07",
+        "price": 64700.0
+      },
+      {
+        "date": "2026-07-14",
+        "price": 65800.0
+      },
+      {
+        "date": "2026-07-21",
+        "price": 64900.0
+      }
+    ]
+  },
+  {
+    "id": "77",
+    "name": "Soybean (100kg bag)",
+    "category": "Legumes",
+    "market": "Ogbete Main Market",
+    "state": "Enugu",
+    "currentPrice": 67900.0,
+    "previousPrice": 67600.0,
+    "dateUpdated": "2026-07-21",
+    "description": "Dried soybean seeds sold in 100kg bags, used for oil extraction and animal feed.",
+    "priceHistory": [
+      {
+        "date": "2026-06-16",
+        "price": 72000.0
+      },
+      {
+        "date": "2026-06-23",
+        "price": 71500.0
+      },
+      {
+        "date": "2026-06-30",
+        "price": 70700.0
+      },
+      {
+        "date": "2026-07-07",
+        "price": 69200.0
+      },
+      {
+        "date": "2026-07-14",
+        "price": 67600.0
+      },
+      {
+        "date": "2026-07-21",
+        "price": 67900.0
+      }
+    ]
+  },
+  {
+    "id": "78",
+    "name": "Soybean (100kg bag)",
+    "category": "Legumes",
+    "market": "Onitsha Main Market",
+    "state": "Anambra",
+    "currentPrice": 65200.0,
+    "previousPrice": 67200.0,
+    "dateUpdated": "2026-07-21",
+    "description": "Dried soybean seeds sold in 100kg bags, used for oil extraction and animal feed.",
+    "priceHistory": [
+      {
+        "date": "2026-06-16",
+        "price": 64200.0
+      },
+      {
+        "date": "2026-06-23",
+        "price": 66500.0
+      },
+      {
+        "date": "2026-06-30",
+        "price": 68200.0
+      },
+      {
+        "date": "2026-07-07",
+        "price": 68300.0
+      },
+      {
+        "date": "2026-07-14",
+        "price": 67200.0
+      },
+      {
+        "date": "2026-07-21",
+        "price": 65200.0
+      }
+    ]
+  },
+  {
+    "id": "79",
+    "name": "Sweet Potato (bag)",
+    "category": "Tubers",
+    "market": "Dawanau Market",
+    "state": "Kano",
+    "currentPrice": 13900.0,
+    "previousPrice": 14100.0,
+    "dateUpdated": "2026-07-21",
+    "description": "Fresh sweet potato tubers sold by the bag, a fast-growing tuber crop across Nigeria.",
+    "priceHistory": [
+      {
+        "date": "2026-06-16",
+        "price": 14400.0
+      },
+      {
+        "date": "2026-06-23",
+        "price": 14400.0
+      },
+      {
+        "date": "2026-06-30",
+        "price": 14100.0
+      },
+      {
+        "date": "2026-07-07",
+        "price": 14000.0
+      },
+      {
+        "date": "2026-07-14",
+        "price": 14100.0
+      },
+      {
+        "date": "2026-07-21",
+        "price": 13900.0
+      }
+    ]
+  },
+  {
+    "id": "80",
+    "name": "Sweet Potato (bag)",
+    "category": "Tubers",
+    "market": "Bodija Market",
+    "state": "Oyo",
+    "currentPrice": 14700.0,
+    "previousPrice": 14300.0,
+    "dateUpdated": "2026-07-21",
+    "description": "Fresh sweet potato tubers sold by the bag, a fast-growing tuber crop across Nigeria.",
+    "priceHistory": [
+      {
+        "date": "2026-06-16",
+        "price": 14100.0
+      },
+      {
+        "date": "2026-06-23",
+        "price": 14300.0
+      },
+      {
+        "date": "2026-06-30",
+        "price": 14600.0
+      },
+      {
+        "date": "2026-07-07",
+        "price": 14600.0
+      },
+      {
+        "date": "2026-07-14",
+        "price": 14300.0
+      },
+      {
+        "date": "2026-07-21",
+        "price": 14700.0
+      }
+    ]
+  },
+  {
+    "id": "81",
+    "name": "Sweet Potato (bag)",
+    "category": "Tubers",
+    "market": "Ogbete Main Market",
+    "state": "Enugu",
+    "currentPrice": 15900.0,
+    "previousPrice": 15600.0,
+    "dateUpdated": "2026-07-19",
+    "description": "Fresh sweet potato tubers sold by the bag, a fast-growing tuber crop across Nigeria.",
+    "priceHistory": [
+      {
+        "date": "2026-06-14",
+        "price": 16300.0
+      },
+      {
+        "date": "2026-06-21",
+        "price": 15900.0
+      },
+      {
+        "date": "2026-06-28",
+        "price": 15700.0
+      },
+      {
+        "date": "2026-07-05",
+        "price": 15100.0
+      },
+      {
+        "date": "2026-07-12",
+        "price": 15600.0
+      },
+      {
+        "date": "2026-07-19",
+        "price": 15900.0
+      }
+    ]
+  },
+  {
+    "id": "82",
+    "name": "Sweet Potato (bag)",
+    "category": "Tubers",
+    "market": "Onitsha Main Market",
+    "state": "Anambra",
+    "currentPrice": 15400.0,
+    "previousPrice": 15900.0,
+    "dateUpdated": "2026-07-20",
+    "description": "Fresh sweet potato tubers sold by the bag, a fast-growing tuber crop across Nigeria.",
+    "priceHistory": [
+      {
+        "date": "2026-06-15",
+        "price": 14800.0
+      },
+      {
+        "date": "2026-06-22",
+        "price": 15000.0
+      },
+      {
+        "date": "2026-06-29",
+        "price": 14900.0
+      },
+      {
+        "date": "2026-07-06",
+        "price": 15400.0
+      },
+      {
+        "date": "2026-07-13",
+        "price": 15900.0
+      },
+      {
+        "date": "2026-07-20",
+        "price": 15400.0
+      }
+    ]
+  },
+  {
+    "id": "83",
+    "name": "Tomato (basket)",
+    "category": "Vegetables",
+    "market": "Dawanau Market",
+    "state": "Kano",
+    "currentPrice": 29700.0,
+    "previousPrice": 29000.0,
+    "dateUpdated": "2026-07-19",
+    "description": "Fresh red tomatoes sold per basket. Highly perishable, prices fluctuate weekly.",
+    "priceHistory": [
+      {
+        "date": "2026-06-14",
+        "price": 29200.0
+      },
+      {
+        "date": "2026-06-21",
+        "price": 29300.0
+      },
+      {
+        "date": "2026-06-28",
+        "price": 29700.0
+      },
+      {
+        "date": "2026-07-05",
+        "price": 28900.0
+      },
+      {
+        "date": "2026-07-12",
+        "price": 29000.0
+      },
+      {
+        "date": "2026-07-19",
+        "price": 29700.0
+      }
+    ]
+  },
+  {
+    "id": "84",
+    "name": "Tomato (basket)",
+    "category": "Vegetables",
+    "market": "Bodija Market",
+    "state": "Oyo",
+    "currentPrice": 31100.0,
+    "previousPrice": 30300.0,
+    "dateUpdated": "2026-07-19",
+    "description": "Fresh red tomatoes sold per basket. Highly perishable, prices fluctuate weekly.",
+    "priceHistory": [
+      {
+        "date": "2026-06-14",
+        "price": 32500.0
+      },
+      {
+        "date": "2026-06-21",
+        "price": 32600.0
+      },
+      {
+        "date": "2026-06-28",
+        "price": 31700.0
+      },
+      {
+        "date": "2026-07-05",
+        "price": 31100.0
+      },
+      {
+        "date": "2026-07-12",
+        "price": 30300.0
+      },
+      {
+        "date": "2026-07-19",
+        "price": 31100.0
+      }
+    ]
+  },
+  {
+    "id": "85",
+    "name": "Tomato (basket)",
+    "category": "Vegetables",
+    "market": "Ogbete Main Market",
+    "state": "Enugu",
+    "currentPrice": 32600.0,
+    "previousPrice": 32100.0,
+    "dateUpdated": "2026-07-21",
+    "description": "Fresh red tomatoes sold per basket. Highly perishable, prices fluctuate weekly.",
+    "priceHistory": [
+      {
+        "date": "2026-06-16",
+        "price": 33200.0
+      },
+      {
+        "date": "2026-06-23",
+        "price": 33300.0
+      },
+      {
+        "date": "2026-06-30",
+        "price": 32600.0
+      },
+      {
+        "date": "2026-07-07",
+        "price": 31800.0
+      },
+      {
+        "date": "2026-07-14",
+        "price": 32100.0
+      },
+      {
+        "date": "2026-07-21",
+        "price": 32600.0
+      }
+    ]
+  },
+  {
+    "id": "86",
+    "name": "Tomato (basket)",
+    "category": "Vegetables",
+    "market": "Onitsha Main Market",
+    "state": "Anambra",
+    "currentPrice": 32700.0,
+    "previousPrice": 33200.0,
+    "dateUpdated": "2026-07-21",
+    "description": "Fresh red tomatoes sold per basket. Highly perishable, prices fluctuate weekly.",
+    "priceHistory": [
+      {
+        "date": "2026-06-16",
+        "price": 32700.0
+      },
+      {
+        "date": "2026-06-23",
+        "price": 33000.0
+      },
+      {
+        "date": "2026-06-30",
+        "price": 32700.0
+      },
+      {
+        "date": "2026-07-07",
+        "price": 33300.0
+      },
+      {
+        "date": "2026-07-14",
+        "price": 33200.0
+      },
+      {
+        "date": "2026-07-21",
+        "price": 32700.0
+      }
+    ]
+  },
+  {
+    "id": "87",
+    "name": "Yam (per tuber, large)",
+    "category": "Tubers",
+    "market": "Dawanau Market",
+    "state": "Kano",
+    "currentPrice": 1700.0,
+    "previousPrice": 1600.0,
+    "dateUpdated": "2026-07-21",
+    "description": "Large-sized white yam tuber, priced individually. Prices rise sharply during off-season.",
+    "priceHistory": [
+      {
+        "date": "2026-06-16",
+        "price": 1700.0
+      },
+      {
+        "date": "2026-06-23",
+        "price": 1600.0
+      },
+      {
+        "date": "2026-06-30",
+        "price": 1600.0
+      },
+      {
+        "date": "2026-07-07",
+        "price": 1700.0
+      },
+      {
+        "date": "2026-07-14",
+        "price": 1600.0
+      },
+      {
+        "date": "2026-07-21",
+        "price": 1700.0
+      }
+    ]
+  },
+  {
+    "id": "88",
+    "name": "Yam (per tuber, large)",
+    "category": "Tubers",
+    "market": "Bodija Market",
+    "state": "Oyo",
+    "currentPrice": 1800.0,
+    "previousPrice": 1800.0,
+    "dateUpdated": "2026-07-19",
+    "description": "Large-sized white yam tuber, priced individually. Prices rise sharply during off-season.",
+    "priceHistory": [
+      {
+        "date": "2026-06-14",
+        "price": 1700.0
+      },
+      {
+        "date": "2026-06-21",
+        "price": 1700.0
+      },
+      {
+        "date": "2026-06-28",
+        "price": 1800.0
+      },
+      {
+        "date": "2026-07-05",
+        "price": 1900.0
+      },
+      {
+        "date": "2026-07-12",
+        "price": 1800.0
+      },
+      {
+        "date": "2026-07-19",
+        "price": 1800.0
+      }
+    ]
+  },
+  {
+    "id": "89",
+    "name": "Yam (per tuber, large)",
+    "category": "Tubers",
+    "market": "Ogbete Main Market",
+    "state": "Enugu",
+    "currentPrice": 1900.0,
+    "previousPrice": 1800.0,
+    "dateUpdated": "2026-07-21",
+    "description": "Large-sized white yam tuber, priced individually. Prices rise sharply during off-season.",
+    "priceHistory": [
+      {
+        "date": "2026-06-16",
+        "price": 2000.0
+      },
+      {
+        "date": "2026-06-23",
+        "price": 1900.0
+      },
+      {
+        "date": "2026-06-30",
+        "price": 1900.0
+      },
+      {
+        "date": "2026-07-07",
+        "price": 1900.0
+      },
+      {
+        "date": "2026-07-14",
+        "price": 1800.0
+      },
+      {
+        "date": "2026-07-21",
+        "price": 1900.0
+      }
+    ]
+  },
+  {
+    "id": "90",
+    "name": "Yam (per tuber, large)",
+    "category": "Tubers",
+    "market": "Onitsha Main Market",
+    "state": "Anambra",
+    "currentPrice": 1800.0,
+    "previousPrice": 1800.0,
+    "dateUpdated": "2026-07-20",
+    "description": "Large-sized white yam tuber, priced individually. Prices rise sharply during off-season.",
+    "priceHistory": [
+      {
+        "date": "2026-06-15",
+        "price": 1900.0
+      },
+      {
+        "date": "2026-06-22",
+        "price": 1800.0
+      },
+      {
+        "date": "2026-06-29",
+        "price": 1800.0
+      },
+      {
+        "date": "2026-07-06",
+        "price": 1800.0
+      },
+      {
+        "date": "2026-07-13",
+        "price": 1800.0
+      },
+      {
+        "date": "2026-07-20",
+        "price": 1800.0
+      }
+    ]
   }
 ]
